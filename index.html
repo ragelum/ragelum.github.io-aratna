@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Arat Na Travel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar {
+            list-style: none;
+            display: flex;
+        }
+        .navbar li {
+            margin: 0 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+        .carousel {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+        }
+        .carousel img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .account-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .cards-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 200px;
+            padding: 15px;
+            text-align: center;
+        }
+        .membership {
+            margin: 20px;
+            padding: 20px;
+            background-color: #eee;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Arat Na Travel</h1>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</header>
+
+<div class="carousel">
+    <img src="pexels-pixabay-69827.jpg" alt="pic">
+</div>
+
+<div class="account-form">
+    <h2>Create an Account</h2>
+    <form>
+        <input type="text" placeholder="First name"><br>
+        <input type="text" placeholder="Last name"><br>
+        <input type="text" placeholder="Username"><br>
+        <input type="text" placeholder="City"><br>
+        <input type="text" placeholder="State"><br>
+        <input type="text" placeholder="Zip"><br>
+        <label>
+            <input type="checkbox"> Agree to terms and conditions
+        </label><br>
+        <button>Create Account</button>
+    </form>
+</div>
+
+<h2>Why Choose Us</h2>
+<div class="cards-container">
+    <div class="card">
+        <img src="pexels-asadphoto-2245277.jpg" alt="Description of image 1" style="width: 100%; height: auto; border-radius: 5px;">
+        <h3>Card Title 1</h3>
+        <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    </div>
+    <div class="card">
+        <img src="pexels-artguz-15478756.jpg" alt="Description of image 2" style="width: 100%; height: auto; border-radius: 5px;">
+        <h3>Card Title 2</h3>
+        <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    </div> 
+    <div class="card">
+        <img src="pexels-bertellifotografia-2868235.jpg" alt="Description of image 3" style="width: 100%; height: auto; border-radius: 5px;">
+        <h3>Card Title 3</h3>
+        <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    </div>
+</div>
+
+<div class="membership">
+    <img src="pexels-cflaten-3623691.jpg" alt="Description of image 2" style="width: 100%; height: auto; border-radius: 5px;">
+    <h2>Reserve Membership for Only $99 USD Per Month</h2>
+    <p>Exclusively on the Amalfi Jets App, enjoy a lifestyle concierge team, VIP status at our partners, and more.</p>
+    <button>Read More</button>
+</div>
+
+<footer>
+    <p>© 2025. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
